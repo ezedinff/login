@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'login';
+  sendToken() {
+    location.assign('http://localhost:3000?token=ffdfdfdfd');
+  }
 }
